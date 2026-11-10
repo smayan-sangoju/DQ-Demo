@@ -16,7 +16,7 @@ from qiskit_aer import AerSimulator
 from qiskit_aer.noise import NoiseModel, depolarizing_error
 
 SHOTS = 4000
-ERROR_RATES = [0.0, 0.01, 0.05, 0.10, 0.20]
+ERROR_RATES = [0.0, 0.01, 0.05, 0.10, 0.20, 0.30]
 
 
 def bell_circuit():
